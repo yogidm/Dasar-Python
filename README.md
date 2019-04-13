@@ -1,3 +1,4 @@
+
 # Pengenalan Dasar Python 2.7
 
 Python merupakan sebuah bahasa pemograman yang ditujukan pada perancangan yang berfokus pada tingkat keterbacaan kode. Oleh karenanya Python diklaim sebagai bahasa yang menggabungkan kapabilitas, kemampuan, dengan sintaksis kode yang sangat jelas dan dilengkapi dengan fungsionalitas pustaka standar yang besar serta komprehensif. Python juga didukung oleh komunitas yang besar.
@@ -24,7 +25,7 @@ Namun, pada tutorial ini, digunakan `IDLE (using Python 2.7)` sebagai editor Pyt
 2. [Aplikasi IDLE sebagai editor Python 2.7](#2.-Aplikasi-IDLE-sebagai-editor-Python-2.7)
     * [Tampilan Awal IDLE](#+-Tampilan-awal-IDLE)
     * [Bermain menggunakan console Pyhton](#+-Bermain-menggunakan-console-Pyhton)
-    * [Menggunakan Python sebagai kalkulator (alat hitung)](#+-Menggunakan-Python-sebagai-kalkulator-(alat-hitung))
+    * [Menggunakan Python sebagai kalkulator (alat hitung)](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-menggunakan-python-sebagai-kalkulator-alat-hitung)
     * [Komentar pada Pyhton](#+-Komentar-pada-Pyhton)
     * [Variabel](#+-Variabel)
     * [Fungsi `print` pada Python](#+-Fungsi-print-pada-Python)
