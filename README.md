@@ -21,17 +21,17 @@ Namun, pada tutorial ini, digunakan `IDLE (using Python 2.7)` sebagai editor Pyt
 
 ## Daftar isi 
 
-1. [Instalasi IDLE untuk Python 2.7](#1.-Instalasi-IDLE-untuk-Python-2.7)
-2. [Aplikasi IDLE sebagai editor Python 2.7](#2.-Aplikasi-IDLE-sebagai-editor-Python-2.7)
-    * [Tampilan Awal IDLE](#+-Tampilan-awal-IDLE)
-    * [Bermain menggunakan console Pyhton](#+-Bermain-menggunakan-console-Pyhton)
+1. [Instalasi IDLE untuk Python 2.7](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#1-instalasi-idle-untuk-python-27)
+2. [Aplikasi IDLE sebagai editor Python 2.7](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#2-aplikasi-idle-sebagai-editor-python-27)
+    * [Tampilan Awal IDLE](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-tampilan-awal-idle)
+    * [Bermain menggunakan console Pyhton](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-bermain-menggunakan-console-pyhton)
     * [Menggunakan Python sebagai kalkulator (alat hitung)](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-menggunakan-python-sebagai-kalkulator-alat-hitung)
-    * [Komentar pada Pyhton](#+-Komentar-pada-Pyhton)
-    * [Variabel](#+-Variabel)
-    * [Fungsi `print` pada Python](#+-Fungsi-print-pada-Python)
+    * [Komentar pada Pyhton](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-komentar-pada-pyhton)
+    * [Variabel](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-variabel)
+    * [Fungsi `print` pada Python](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-fungsi-print-pada-python)
     
 
-3. [Editor pada IDLE](#3.-Editor-Pada-IDLE)
+3. [Editor pada IDLE](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#3-editor-pada-idle)
 4. [Pengkondisian]()
 5. [List]()
 6. [Perulangan]()
