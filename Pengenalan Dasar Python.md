@@ -1,3 +1,44 @@
+
+# Pengenalan Dasar Python 2.7
+
+Python merupakan sebuah bahasa pemograman yang ditujukan pada perancangan yang berfokus pada tingkat keterbacaan kode. Oleh karenanya Python diklaim sebagai bahasa yang menggabungkan kapabilitas, kemampuan, dengan sintaksis kode yang sangat jelas dan dilengkapi dengan fungsionalitas pustaka standar yang besar serta komprehensif. Python juga didukung oleh komunitas yang besar.
+
+Python memiliki 2 versi berbeda, yaitu Python versi 3.4.3 dan Python versi 2.7.14. Pada tutorial kali ini, kita menggunakan Python versi 2.7.14. Agar dapat menggunakan Python, pertama kita akan melakukan instalasi pada masing-masing komputer yang digunakan. 
+Editor untuk Python ada beberapa macam, diantaranya:
++ IDLE
++ PyCharm
++ Nano
++ Gedit
++ Spyder
++ Vim
++ Emacs
++ NetBeans
++ Notepad
++ Pluma
++ Wingware
+
+Namun, pada tutorial ini, digunakan `IDLE (using Python 2.7)` sebagai editor Python.
+
+## Daftar isi 
+
+1. [Instalasi IDLE untuk Python 2.7](#1.-Instalasi-IDLE-untuk-Python-2.7)
+2. [Aplikasi IDLE sebagai editor Python 2.7](#2.-Aplikasi-IDLE-sebagai-editor-Python-2.7)
+    * [Tampilan Awal IDLE](#+-Tampilan-awal-IDLE)
+    * [Bermain menggunakan console Pyhton](#+-Bermain-menggunakan-console-Pyhton)
+    * [Menggunakan Python sebagai kalkulator (alat hitung)](#+-Menggunakan-Python-sebagai-kalkulator-(alat-hitung))
+    * [Komentar pada Pyhton](#+-Komentar-pada-Pyhton)
+    * [Variabel](#+-Variabel)
+    * [Fungsi `print` pada Python](#+-Fungsi-print-pada-Python)
+    
+
+3. [Editor pada IDLE](#3.-Editor-Pada-IDLE)
+4. [Pengkondisian]()
+5. [List]()
+6. [Perulangan]()
+7. [Membuat Fungsi]()
+8. [Membuat Program yang Besar]()
+
+
 # 1. Instalasi IDLE untuk Python 2.7
 
 Mari kita mulai instalasi IDLE untuk editor Python kita. 
@@ -224,6 +265,8 @@ a == 2
 (a == 1) == True
 ```
 maka hasilnya akan seperti berikut.
+
+
 <img src="Gambar/TrueFalseA.png">
 
 
@@ -289,6 +332,7 @@ Editor pada IDLE berbeda dengan consolenya. Editor ini merupakan sebuah jendela 
 Untuk membuat sebuah dokumen Python baru, Anda dapat menekan tombol `Ctrl+N` pada keyboard atau klik `File > New File ` pada jendela Python Shell, setelah itu Anda akan diperlihatkan jendela editor kode. Pada jendela ini nantinya kode Python akan ditulilskan. Gambar berikut adalah perbedaan antara jendela console dengan jendela editor Python.
 
 Untuk menyimpan dokumen tersebut, Anda dapat menekan tombol `Ctrl + S` pada keyboard atau `File > Save` pada jendela editor. Pada gambar berikut, dokumen baru yang telah dibuat, disimpan dengan nama `DokumenBaru.py`.
+
 <img src="Gambar/EditorDanConsole.png">
 
 ## + Menjalankan program dari editor
@@ -312,6 +356,7 @@ else:
 ```
 
 Maka program Python yang telah dijalankan akan meminta masukan nama user dan password kepada user. Apabila password benar yaitu `1234`, maka program akan memberikan balikan berupa kalimat `Sandi benar! Selamat Datang...`. Sebaliknya, apabila masukan password selain `1234`, maka akan memberikan balikan berupa kalimat `Sandi salah! Akses ditolak!`.
+
 <img src="Gambar/EditorProgram.png">
 
 ## + Beberapa fitur pada editor IDLE
@@ -327,9 +372,7 @@ Pada umumnya, ketika terjadi sebuah kesalahan pada penulisan kode di editor, sem
 
 Untuk memastikan letak eror tersebut, biasanya baris kelasahannya berada pada baris sebelumnya dari terjadinya eror. Semisal error pada gambar diatas disebabkan pada `Line 4` karena variabel `nama` pada baris 4 belum terdeklarasi, oleh karenanya error disebabkan pada `baris ke 3` yaitu terletak sebelum error terjadi. Untuk mengetahui `posisi kursor` pada editor berada pada baris ke-berapa, dapat dilihat pada bagian pojok kanan bawah editor IDLE, pada tulisan `ln:[] ` ` col:[]`. Sebagai contoh pada gambar dibawah ini, menunjukkan letak `ln: 3` dan `col:1` pada editor IDLE. 
 
-
 <img src="Gambar/LetakEror.png">
-
 
 + ### Kehilangan pasangan pada penulisan (Missing Charracter)
 
@@ -350,8 +393,8 @@ print("Halo Bro!")
 nama = raw_input("Namamu siapa? :" #) #ini posisi kekurangan tutup kurung )
 print ("Halo " + nama + '!')
 ```
-<img src="Gambar/Error Kekurangan.png">
 
+<img src="Gambar/Error Kekurangan.png">
 
 #### Kekurangan titik dua
 
@@ -405,36 +448,468 @@ if password == 1234:
 Pada umumnya, ketika terjadi sebuah kesalahan pada penulisan kode di editor, semisal kekurangan tanda titik dua `:`, tutup kurung `)` ataupun kekurangan `spasi`, console IDLE akan memberitahukan letak baris dan kolom terjadinya error 
 atau galat yang terjadi.
 
++ ### Komentar dalam banyak baris
 
-
-<b>Pada editor Python, semisal IDLE</b>
-
-
-Untuk menggunakan komentar pada jumlah yang banyak atau berbaris-baris, dapat digunakan tanda petik atas sebanyak tiga kali <b> [ ''' ]</b> pada perawalan atas komentar dan pada akhiran komentarnya. 
-
-Contoh:
-
-
+Python juga memiliki fitur untuk memberikan komentar pada banyak garis. Pada kasus ini, Anda dapat menyematkan kode `'''` pada awalan dan akhiran kode yang akan diberikan komentar, semisal, tuliskan kode berikut pada editor kalian dan `run`:
 
 ```python
 '''
-Ini adalah 
-komentar dalam jumlah 
-berbaris-baris
-
-Komentar ini tidak dieksekusi, kecuali setelah tanda komentar penutup pada akhiran komentar.
+berikut adalah komentar
+yang ada pada python
+=======================
+a = 6
+b = 5
+print (a + b)
+=======================
+operasi diatas tidak akan di proses
+kecuali operasi dibawah ini
 '''
 
-4 + 5 #Penambahan antara 4 dan 5
+a = 1
+b = 2
+print (a + b)
+
+```
+
+maka akan menampilkan:
+```python
+3
+>>> 
+```
+
+# 4. Pengkondisian
+
+Kita juga pernah menggunakan syntax berikut pada console bukan pada [Nilai Boolean](#Nilai-Boolean) ? Selain itu kita sudah melakukan beberapa pengkondisian pada bab [berikut](#+-Menjalankan-program-dari-editor). Namun, mari kita perjelas penggunaan kondisi pada Pyhton. 
+
+
+```python
+>>> a = 2
+>>> a == 2
+True
+>>> (a == 2)
+True
+>>> (a == 2) == True
+True
+>>> (a == 2) == False
+False
+>>> (a == 1) == True
+False
+>>> 
+```
+
+bentuk dasar dari pengkondisian if seperti berikut:
+
+```python
+>>> kondisi = True
+>>> if kondisi:
+	print ("Benar")
+
+	
+Benar
+>>> kondisi = False
+>>> if kondisi:
+	print ("Benar")
+
+	
+>>> 
+>>> if kondisi:
+	print ("Benar")
+else:
+	print ("Salah")
+
+	
+Salah
+>>>
+```
+
+Kita juga bisa menambahkan `if not` pada pengkondisian untuk negasi dari kondisi seperti berikut ini. Tulis pada editor kalian, dan `run` programnya. 
+
+
+```python
+kondisi = False
+if kondisi:
+    print ("Benar")
+if not kondisi:
+    print ("Salah")
+```
+
+maka keluaran operasinya adalah:
+
+```python
+Salah
+>>> 
+```
+## Hindari penggunaan kondisi bertingkat dengan `elif`
+Untuk penggunaan beberapa kondisi yang bertingkat, hindari penggunaan `else` dan `if` yang berulang seperti berikut ini:
+
+```python
+print ("Hai...")
+kata = raw_input("Masukkan ejaan angka: ")
+
+if kata == "satu":
+    print ("satu ejaan")
+else:
+    if kata == "dua":
+        print ("dua ejaan")
+    else:
+        if kata == "tiga":
+            print ("tiga ejaan")
+        else:
+            if kata == "empat":
+                print ("empat ejaan")
+            else:
+                print ("salah ejaan")
+              
+```
+
+sebaiknya gunakan `elif` pada penulisan kondisian bertingkat. Selain enak untuk dipandang, juga mudah dalam pengorganisasian kondisi yang kita buat. Sebagai contoh pada kode berikut ini:
+
+```python
+print ("Hai...")
+kata = raw_input("Masukkan ejaan angka: ")
+
+if kata == "satu":
+    print ("satu ejaan")
+elif kata == "dua":
+    print ("dua ejaan")
+elif kata == "tiga":
+    print ("tiga ejaan")
+elif kata == "empat":
+    print ("empat ejaan")
+else:
+    print ("salah ejaan")
+```
+
+Kedua program diatas, berfungsi dengan baik, seperti berikut ini:
+
+```python
+Hai...
+Masukkan ejaan angka: empat
+empat ejaan
+>>> 
+```
+
+Selain itu, pada penggunaan `elif` lebih memudahkan pengorganisasian kondisi yang ada seperti contoh berikut:
+
+```python
+if 1 == 1:
+    print ("satu")
+elif 1 == 2:
+    print ("dua")
+else:
+    print ("banyak")
+```
+
+maka keluarannya:
+
+```python
+satu
+>>> 
+```
+
+
+Hindari penggunaan penulisan `if` lagi pada kondisi selainnya, semisal:
+
+```python
+if 1 == 1:
+    print ("satu")
+if 1 == 2:
+    print ("dua")
+else:
+    print ("banyak")
+```
+
+maka keluarannya:
+
+```python
+satu
+banyak
+>>> 
+```
+
+Kedua kode diatas sangatlah berbeda pada keluarannya. Untuk penggunaan `elif` sebagai pengkondisiannya, kondisi `1 == 2` merupakan bagian dari kondisi pertama `1 == 1`, yaitu `"selain kondisi pertama"`. Sedangkan pada penggunaan `if 1 == 2` pada kode dibawahnya, kondisi ini berbeda dengan kondisi `if 1 == 1`, sehingga keluaran programnya berlaku `dua kali` pengkondisian atau bukan bagian dari kondisi sebelumnya. 
+
+## Coba benarkan kode berikut ini
+
+```python
+print ("Hai...")
+kata = raw_input("Masukkan satu atau dua: ")
+if kata = "satu":
+    print ("sekali")
+elif kata = "dua"
+    print ("dua kali")
+else:
+    print ("Kata" kata, "tidak diketahui...")
 ```
 
 
 
+# 5. List dan Tuple
 
-    9
+`list` atau daftar merupakan sekumpulan data yang nantinya akan digunakan sebagai acuan untuk dilakukan operasi. Pada daftar ini, merupakan sebuah variabel yang bisa kita panggil tiap anggotanya sesuai dengan urutannya masing-masing.
 
+Semisal pada kasus dibawah ini:
 
+```python
+siswa1 = "Udin"
+siswa2 = "Hilman"
+siswa3 = "Nanda"
+siswa4 = "Eki"
+siswa5 = "Rasid"
+siswa6 = "Surya"
 
+nama = raw_input("Nama Siswa SDN Candi 3: ")
+if nama == siswa1 or nama == siswa2 or nama == siswa3 or nama == siswa4 or nama == siswa5 or nama == siswa6:
+    print ("Siswa tersebut terdaftar di sekolah kami.")
+else:
+    print ("Bukan siswa kami.")
+```
+
+Program diatas dapat bekerja dengan baik. Namun, pada penulisan pengkondisiannya, terjadi penulisan yang berulang dan membosankan. Oleh karenanya, dapat digunakan `list` untuk mempersingkat penulisan. Semisal pada kode berikut ini:
+
+```python
+siswa = ['Udin','Hilman','Nanda','Eki','Rasid','Surya']
+nama = raw_input("Nama Siswa SDN Candi 3: ")
+if nama in siswa:
+    print ("Siswa tersebut terdaftar di sekolah kami.")
+else:
+    print ("Bukan siswa kami.")
+```
+
+Seberapa banyak pun jumlah siswanya, maka pengkondisian tidak akan ditulis sebanyak siswa tersebut. Penambahan daftar siswa baru, hanya menambahkan pada variabel `siswa` saja yang sudah berjenis `list` atau `daftar`.
+
+## Lalu, apa saja yang dapat kita lakukan dengan `list` ?
+
+Pertama, kita coba buka sebuah console Python baru. Lalu tuliskan sebuah variabel dengan `list` didalamnya. Terserah Anda akan membuat sebuah daftar apa. Semisal sebuah daftar berlanjaan berikut :
+
+```python
+>>> sayur = ['Wortel','Kangkung','Cabe','Tomat','Kubis','Selada','Brokoli']
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli']
+>>> 
+```
+
+Selain itu kita juga bisa mengolah isi di dalam daftar tersebut. Semisal:
+
+```python
+>>> len (sayur)
+7
+>>> sayur += ['Kubis','Jengkol','Ayam']
+>>> len (sayur)
+10
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Ayam']
+>>> sayur *= 2
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Ayam', 'Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Ayam']
+>>> len (sayur)
+20
+```
+
+Selain itu, kita juga bisa mengambil beberapa bagiannya menggunakan `indexing` atau `slicing`, seperti berikut:
+
+```python
+>>> sayur[2] # Indexing
+'Cabe'
+>>> sayur[0]
+'Wortel'
+>>> sayur[:4] # Slicing
+['Wortel', 'Kangkung', 'Cabe', 'Tomat']
+>>> sayur[3:4]
+['Tomat']
+>>> sayur[3:8]
+['Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis']
+>>> 
+```
+
+Kita juga bisa mengecheck keanggotaan dari sebuah string dari datar yang sudah kita buat, semisal:
+
+```python
+>>> 'Kacang' in sayur
+False
+>>> 'Tomat' in sayur
+True
+>>> 
+```
+
+Namun, untuk kita tidak bisa menggunakan perintah dibawah ini untuk mengechek keanggotaan dari sebuah daftar.
+
+```python
+>>> ['Tomat','Kedelai'] in sayur
+False
+>>> ['Tomat','Jengkol'] in sayur
+False
+>>> ['Tomat','Kubis'] in sayur
+False
+>>> 
+```
+
+sebuah `list` juga memiliki fungsi tersendiri, yaitu `remove`, `append`, dan `extend`. Untuk mengetahui masing-masing fungsinya, ikuti kode berikut ini pada console.
+
+```python
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Ayam', 'Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Ayam']
+>>> sayur.remove('Ayam') # Ayam bukan anggota sayur
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Ayam']
+>>> len(sayur) # Hanya Ayam pertama yang terhapus
+19
+>>> sayur.remove('Ayam') # Menghapus Ayam kedua
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol']
+>>> len(sayur) # Ayam kedua, sudah terhapus
+18
+>>> sayur.remove(['Kangkung','Tomat']) # Tidak bisa digunakan
+
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    sayur.remove(['Kangkung','Tomat'])
+ValueError: list.remove(x): x not in list
+>>> 
+```
+
+Mari tambahkan beberapa sayur lagi
+
+```python
+>>> sayur.append('Kacang Panjang')
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Kacang Panjang']
+>>> sayur.extend(['Daun Singkong','Bawang'])
+>>> sayur
+['Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Wortel', 'Kangkung', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Kacang Panjang', 'Daun Singkong', 'Bawang']
+>>> 
+```
+
+Lalu bagaimana jika kita ingin menghapus seluruh nama pada daftar yang memiliki nama yang sama?
+
+```python
+>>> while 'Kangkung' in sayur:
+	sayur.remove('Kangkung')
+
+	
+>>> sayur
+['Wortel', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Wortel', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Kacang Panjang', 'Daun Singkong', 'Bawang']
+>>> 
+```
+
+Kita juga bisa merubah sebuah nama pada daftar menggunakan `indexing` dan `slicing` seperti berikut:
+
+```python
+>>> sayur[0] = 'Kacang'
+>>> sayur
+['Kacang', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Wortel', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Kacang Panjang', 'Daun Singkong', 'Bawang']
+>>> sayur[3:6] = 'Kecambah'
+>>> sayur
+['Kacang', 'Cabe', 'Tomat', 'K', 'e', 'c', 'a', 'm', 'b', 'a', 'h', 'Kubis', 'Jengkol', 'Wortel', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Kacang Panjang', 'Daun Singkong', 'Bawang']
+>>> sayur[3:11] = ['Bawang Merah','Bawang Putih']
+>>> sayur
+['Kacang', 'Cabe', 'Tomat', 'Bawang Merah', 'Bawang Putih', 'Kubis', 'Jengkol', 'Wortel', 'Cabe', 'Tomat', 'Kubis', 'Selada', 'Brokoli', 'Kubis', 'Jengkol', 'Kacang Panjang', 'Daun Singkong', 'Bawang']
+>>> 
+```
+
+## Operasi pada `list`
+
+Untuk beberapa kasus berikut, mungkin nanti kalian akan bertemu dengannya, semisal:
+
+```python
+>>> a = [1,2,3]
+>>> b = a
+>>> b
+[1, 2, 3]
+>>> b.append(4)
+>>> a
+[1, 2, 3, 4]
+>>> a == b
+True
+>>> a is b
+True
+>>> b
+[1, 2, 3, 4]
+>>>  
+```
+
+Untuk setiap penggunaan `[]` pada Python, akan ada `list baru` yang terbuat.
+
+```python
+>>> [] == []
+True
+>>> [] is []
+False
+>>> [1,2,3] == [1,2,3] # Apakah kedua list tersebut bernilai sama?
+True
+>>> [1,2,3] is [1,2,3] # Apakah kedua list tersebut merupakan list yang sama?
+False
+>>> 
+```
+
+Oleh karenanya, untuk membuat dua `list` yang bernilai sama tapi keduanya merupakan variabel yang berbeda dan tidak memiliki keterkaitan seperti `b = a` diatas, dapat diberikan fungsi `a.copy()` pada sumber variabel yang akan diduplikat. Semisal:
+
+```python
+# Hanya berfungsi pada Python 3, sedangkan Python 2.7 belum mendukung fungsi copy()
+>>> a = [1, 2, 3]
+>>> b = a.copy()
+>>> b is a
+False
+>>> b.append(4)
+>>> b
+[1, 2, 3, 4]
+>>> a
+[1, 2, 3]
+>>>
+```
+
+## Tuple
+
+`tuple` mirip dengan `list`, hanya saja jika list menggunakan `[]` sedangkan tuple menggunakan `()` pada penulisannya. Semisal :
+
+```python
+>>> c = (1,2,3)
+>>> c
+(1, 2, 3)
+>>> c = ()
+>>> c
+()
+>>> 
+```
+
+Pada penulisan `tuple` yang berisikan satu nilai, dapat ditulis dengan `(nilai,)` bukan `(nilai)`, karena penggunaan `(nilai)` digunakan untuk `(1 + 2) * 3`. Semisal pada kode berikut:
+
+```python
+>>> (4)
+4
+>>> (4,)
+(4,)
+>>> (2 + 3) * 4
+20
+>>> (2 + 3,) * 4
+(5, 5, 5, 5)
+>>> 
+```
+
+Pada beberapa kasus khusus, penulisan berikut masih dapat digunakan namun tidak disarankan dikarenakan akan susah untuk mengidentifikasinya. 
+
+```python
+>>> 1,2,3,4
+(1, 2, 3, 4)
+>>> 'sayur',
+('sayur',)
+>>> 
+```
+
+`tuple` tidak memiliki fungsi `append()` selayaknya `list`.
+
+```python
+>>> angka = (1,2,3)
+>>> angka
+(1, 2, 3)
+>>> angka.append(4)
+
+Traceback (most recent call last):
+  File "<pyshell#100>", line 1, in <module>
+    angka.append(4)
+AttributeError: 'tuple' object has no attribute 'append'
+>>> 
+```
 
 
 
