@@ -1,21 +1,28 @@
+
 # 1. Instalasi IDLE untuk Python 2.7
+
+
 
 Mari kita mulai instalasi IDLE untuk editor Python kita. 
 
-### Untuk Linux
+
+## Untuk Linux
 
 ```
 sudo apt-get install idle
 ```
 
-### Untuk Windows
+## Untuk Windows
 
 Unduh dan install idle dari [tautan berikut](https://www.python.org/downloads/release/python-2714/)
 
-### Untuk MacOS
+## Untuk MacOS
 
 Unduh dan install dari [tautan berikut](https://www.python.org/downloads/release/python-2714/)
 
+## Lihat Videonya >>>
+
+[![Instalasi Python](https://img.youtube.com/vi/o5EK-VSswS4/0.jpg)](https://www.youtube.com/watch?v=o5EK-VSswS4)
 
 ----
 
@@ -50,6 +57,11 @@ Semisal masukkan angka sesuai dengan tanggal pada hari ini. Semisal `16042019` b
 Untuk penggunaan angka desimal, pada Python, ditandai menggunakan tanda titik ` . ` bukan koma ` , `.
 
 <img src="Gambar/Penggunaan Console Angka.png">
+
+### Lihat Videonya >>>
+
+[![Console pada Python](https://img.youtube.com/vi/ooevmufusIo/0.jpg)](https://www.youtube.com/watch?v=ooevmufusIo)
+
 
 
 ## + Menggunakan Python sebagai kalkulator (alat hitung)
@@ -97,6 +109,11 @@ Untuk hasil penulisan diatas akan menghasilkan keluaran seperti gambar dibawah i
 
 <img src="Gambar/Komentar Pada Console.png">
 
+### Lihat Videonya >>>
+
+[![Komentar Pada Python](https://img.youtube.com/vi/O1HUre7bJVU/0.jpg)](https://www.youtube.com/watch?v=O1HUre7bJVU)
+
+
 ## + Variabel
 
 Variabel dalam Python merupakan sebuah tempat atau wadah yang di dalamnya dapat diisikan sebuah nilai atau digantikan dengan nilai yang terbaru. Sifat wadah ini tidak konstan atau dapat berubah.
@@ -125,6 +142,11 @@ Untuk hasil ` a + b ` setelah variabel `a` diperbarui menjadi `24` seperti gamba
 
 <img src="Gambar/Pengubahan Variabel2.png">
 
+### Lihat Videonya >>>
+
+[![Mengubah Isi Variable di Python](https://img.youtube.com/vi/p66y96_UJQQ/0.jpg)](https://www.youtube.com/watch?v=p66y96_UJQQ)
+
+
 + ### Operasi dengan variabel itu sendiri
 
 Pada operasi ini, sebuah variabel akan dioperasikan dengan variabel yang sama hanya saja berbeda pada posisi  urutan eksekusi pada iterasi. Semisal pada kode berikut:
@@ -151,6 +173,11 @@ a /= 6   # a = a / 6
 
 <img src="Gambar/OperasiSendiri.png">
 
+### Lihat Videonya >>>
+
+[![Variable String di Python](https://img.youtube.com/vi/UfXNtekbgyU/0.jpg)](https://www.youtube.com/watch?v=UfXNtekbgyU)
+
+
 + ### Variabel dalam string / kata
 
 Pada penulisan variabel, tidak hanya dapat diisikan dengan angka, pun bisa dalam bentuk string atau kata. Semisal: 
@@ -175,6 +202,11 @@ a + b + c
 ```
 <img src="Gambar/SemangatBelajar.png">
 
+### Lihat Videonya >>>
+
+[![Mengubah Isi Variable di Python](https://img.youtube.com/vi/sfwLFBahdHA/0.jpg)](https://www.youtube.com/watch?v=sfwLFBahdHA)
+
+
 + ### Penulisan variabel yang baik dan buruk
 
 Untuk penulisan variabel, sebaiknya dalam format huruf kecil semua (lowercase). Ketika terdiri dari dua buah kata, sebaiknya diberi underscore `_` sebagai penghubung keduanya. 
@@ -194,9 +226,12 @@ panjangBangunan = 1000   # Sulit terbaca
 LebarBangunan = 50       # Aneh juga dalam pembacaannya
 Luas =  1000 * 50        # Huruf besar pada awal variabel, biasanya digunakan pada sistem Python
 x = 'Luas Keduanya'      # Variabel x sering digunakan untuk koordinat
-
-
 ```
+
+### Lihat Videonya >>>
+
+[![Penamaan Variabel yang Baik dan Buruk](https://img.youtube.com/vi/8F6hC2WVbN4/0.jpg)](https://www.youtube.com/watch?v=8F6hC2WVbN4)
+
 
 + ### Nilai Boolean
 
@@ -228,6 +263,10 @@ maka hasilnya akan seperti berikut.
 
 <img src="Gambar/TrueFalseA.png">
 
+### Lihat Videonya >>>
+
+[![Variabel Boolean pada Python](https://img.youtube.com/vi/RdEUEFS8nNQ/0.jpg)](https://www.youtube.com/watch?v=RdEUEFS8nNQ)
+
 
 + ### Penulisan operator pembanding lainnya
 
@@ -241,6 +280,10 @@ Selain penggunaan `==`, ada beberapa operator pembanding lainnya, yaitu:
 | `a >= b`  | a lebih besar atau sama dengan b  | `2 >= 1`, `1 >= 1`    |
 | `a < b`   | a kurang dari b                   | `1 < 2`               |
 | `a <= b`  | a kurang dari atau sama dengan b  | `1 <= 2`, `1 <= 1`    |
+
+### Lihat Videonya >>>
+
+[![Operator Pembanding pada Python](https://img.youtube.com/vi/QD5pmy8SKy8/0.jpg)](https://www.youtube.com/watch?v=QD5pmy8SKy8)
 
 
 + ### Nilai None
@@ -257,6 +300,12 @@ print b       # Print isi dari variabel b
 ```
 maka hasilnya akan seperti berikut.
 <img src="Gambar/VariabelNone.png">
+
+### Lihat Videonya >>>
+
+[![None pada Python](https://img.youtube.com/vi/93jNrikFNNI/0.jpg)](https://www.youtube.com/watch?v=93jNrikFNNI)
+
+
 
 ## + Fungsi `print` pada Python
 
@@ -279,10 +328,14 @@ print ("Joko Tole \nbersama temannya\n" + teman)
 ```
 <img src="Gambar/fungsiPrint3.png">
 
-
-
 ---
 
+### Lihat Videonya >>>
+
+[![Fungsi Print pada Python](https://img.youtube.com/vi/Y64eVxututk/0.jpg)](https://www.youtube.com/watch?v=Y64eVxututk)
+
+
+------------
 
 # 3. Editor Pada IDLE
 
@@ -293,6 +346,10 @@ Untuk membuat sebuah dokumen Python baru, Anda dapat menekan tombol `Ctrl+N` pad
 Untuk menyimpan dokumen tersebut, Anda dapat menekan tombol `Ctrl + S` pada keyboard atau `File > Save` pada jendela editor. Pada gambar berikut, dokumen baru yang telah dibuat, disimpan dengan nama `DokumenBaru.py`.
 
 <img src="Gambar/EditorDanConsole.png">
+
+### Lihat Videonya >>>
+
+[![Editor IDLE pada Python](https://img.youtube.com/vi/8twratzxXyI/0.jpg)](https://www.youtube.com/watch?v=8twratzxXyI)
 
 ## + Menjalankan program dari editor
 
@@ -341,6 +398,12 @@ Galat atau error yang sering terjadi pada penulisan kode di Python, adalah kehil
 2. Penulisan `:` pada perulangan atau pengkondisian
 3. Kekurangan `spasi` pada penulisan variabel
 4. Penulisan yang kurang sejajar terutama pada perulangan dan pengkondisian
+
+
+### Lihat Videonya >>>
+
+[![Error dan Fitur pada Python](https://img.youtube.com/vi/h51dggJAS-I/0.jpg)](https://www.youtube.com/watch?v=h51dggJAS-I)
+
 
 Semisal pada contoh berikut ini:
 
@@ -498,6 +561,12 @@ maka keluaran operasinya adalah:
 Salah
 >>> 
 ```
+
+### Lihat Videonya >>>
+
+[![Pengkondisian pada Python](https://img.youtube.com/vi/N9B9MqnGcW8/0.jpg)](https://www.youtube.com/watch?v=N9B9MqnGcW8)
+
+
 ## Hindari penggunaan kondisi bertingkat dengan `elif`
 Untuk penggunaan beberapa kondisi yang bertingkat, hindari penggunaan `else` dan `if` yang berulang seperti berikut ini:
 
@@ -588,6 +657,10 @@ banyak
 
 Kedua kode diatas sangatlah berbeda pada keluarannya. Untuk penggunaan `elif` sebagai pengkondisiannya, kondisi `1 == 2` merupakan bagian dari kondisi pertama `1 == 1`, yaitu `"selain kondisi pertama"`. Sedangkan pada penggunaan `if 1 == 2` pada kode dibawahnya, kondisi ini berbeda dengan kondisi `if 1 == 1`, sehingga keluaran programnya berlaku `dua kali` pengkondisian atau bukan bagian dari kondisi sebelumnya. 
 
+### Lihat Videonya >>>
+
+[![ElIf pada Python](https://img.youtube.com/vi/9IHHQqNDgwk/0.jpg)](https://www.youtube.com/watch?v=9IHHQqNDgwk)
+
 ## Coba benarkan kode berikut ini
 
 ```python
@@ -636,6 +709,11 @@ else:
 ```
 
 Seberapa banyak pun jumlah siswanya, maka pengkondisian tidak akan ditulis sebanyak siswa tersebut. Penambahan daftar siswa baru, hanya menambahkan pada variabel `siswa` saja yang sudah berjenis `list` atau `daftar`.
+
+
+### Lihat Videonya >>>
+
+[![Apa itu List pada Python](https://img.youtube.com/vi/nxvt3UQBxiI/0.jpg)](https://www.youtube.com/watch?v=nxvt3UQBxiI)
 
 ## Lalu, apa saja yang dapat kita lakukan dengan `list` ?
 
@@ -817,6 +895,11 @@ False
 >>>
 ```
 
+
+### Lihat Videonya >>>
+
+[![Operasi List pada Python](https://img.youtube.com/vi/MNS-o0VamQ0/0.jpg)](https://www.youtube.com/watch?v=MNS-o0VamQ0)
+
 ## Tuple
 
 `tuple` mirip dengan `list`, hanya saja jika list menggunakan `[]` sedangkan tuple menggunakan `()` pada penulisannya. Semisal :
@@ -870,29 +953,269 @@ AttributeError: 'tuple' object has no attribute 'append'
 >>> 
 ```
 
+# 6. Perulangan (Loops)
 
+`loop` atau perulangan merupakan sebuah fungsi dari banyak bahasa pemograman yang digunakan untuk melakukan sebuah atau banyak kegiatan atau aksi yang dilakukan berkali-kali. Ada beberapa jenis perulangan pada Python, diantaranya :
+- `While` - melakukan perulangan sesuatu hal selagi kondisinya benar (`True`).
+- `Until` - melakukan perulangan sesuatu hal selagi kondisinya salah (`False`).
+- `For` - melakukan perulangan sesuatu hal untuk setiap elemen (anggota) dari sesuatu kondisi.
 
----
+## While Loops
 
-## Penulisan Pada Python 2.7
-
-Struktur penulisan pada Python, pada umumnya diawali dengan inisialisasi compiler dengan menambahkan kode berikut. 
-
-
+Kita tahu bahwa statemen pengkondisian `if` dibawah ini adalah benar. 
 ```python
-#!/usr/bin/env python
+gajian = True
+if gajian:
+    print ("Yes! Saatnya liburan ke Lombok.")   
 ```
 
-Biasanya penggunaan inisialisasi ini digunakan ketika program python dirunning menggunakan Terminal. Namun dapat diabaikan apabila running program Python menggunakan IDLE. 
+Apabila kita akan melakukan perulangan `while` yang serupa dengan statemen kondisi diatas, kurang lebih seperti berikut ini. 
+
+```python
+gajian = True
+while gajian:
+    # lakukan perulangan dengan kondisi yang ada
+    print ("Yes! Saatnya liburan ke Lombok.")
+    
+    # perulangan dilakukan sampai pada line ini
+
+# line berikut tidak ikut diulang karna kondisi pada while
+print ("Sabar, mungkin minggu depan gajiannya")
+```
+
+Untuk hasil dari perulangan diatas, kurang lebih seperti berikut.
+
+```
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+(hingga seterusnya sampai banyak)
+```
+
+Hasil tersebut akan terus dilakukan hingga kita memberikan interupsi berhenti dengan menekan `Ctrl + C` pada console python kita. Kurang lebih seperti tampilan berikut ketika diberi interupsi.
+
+```
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Yes! Saatnya liburan ke Lombok.
+Traceback (most recent call last):
+  File "/home/mhnd/Documents/Jupyter/Dasar-Python/DocPyhtonnya.py", line 4, in <module>
+    print ("Yes! Saatnya liburan ke Lombok.")
+KeyboardInterrupt
+>>> 
+```
+Kode diatas, `gajian` merupakan sebuah <b>kondisi</b> yang menentukan dilakukannya perulangan. Apabila kondisi `gajian` kita ubah menjadi `False`, maka console akan memberikan luaran `Sabar, mungkin minggu depan gajiannya` yang tidak diulang. 
+
+```python
+gajian = False
+while gajian:
+    # lakukan perulangan kondisi yang ada
+    print ("Yes! Saatnya liburan ke Lombok.")
+print ("Sabar, mungkin minggu depan gajiannya")
+```
+
+Mari kita coba program selanjutnya pada kasus `While` ini. Masukkan pada editor kalian dan run programnya.
+
+```python
+gajian = True
+while gajian:
+    print ("Katanya gajian!")
+    jawab = input("Benar gajian kah?(y=ya, t=tidak) ")
+    if jawab == 'y':
+        print ("Oh, syukurlah...")
+    elif jawab == 't':
+        gajian = False # akhir dari While
+    else:
+        print ("Masukkan y atau t lain kali.")
+print ("Ternyata gajiannya masih besok.")
+```
+
+Coba masukkan beberapa jawaban, semisal angka `1` atau `3` pada pertanyaan `Benar gajian kah?(y=ya, t=tidak) `. Maka program akan melakukan perulangan yaitu dengan memberikan pertanyaan awal yang sama hingga masukan user memberikan huruf `y` atau `t`. Apabila kita memberikan jawaban `y`, maka program akan memberikan aksi yaitu memberikan balikan `Oh, syukurlah...` dan program akan memberikan pertanyaan yang sama lagi selama jawabannya adalah `y`. Sedangkan apabila kita memberikan masukan `t`, program akan memberikan keluaran `Ternyata gajiannya masih besok.`dan tidak memberikan pertanyaan yang sama secara berulang dikarenakan sudah keluar dari `While` yang sudah diberikan kondisi. Atau keluaran dari program diatas seperti berikut ini.
+
+```
+Katanya gajian!
+Benar gajian kah?(y=ya, t=tidak) 1
+Masukkan y atau t lain kali.
+Katanya gajian!
+Benar gajian kah?(y=ya, t=tidak) 3
+Masukkan y atau t lain kali.
+Katanya gajian!
+Benar gajian kah?(y=ya, t=tidak) y
+Oh, syukurlah...
+Katanya gajian!
+Benar gajian kah?(y=ya, t=tidak) y
+Oh, syukurlah...
+Katanya gajian!
+Benar gajian kah?(y=ya, t=tidak) y
+Oh, syukurlah...
+Katanya gajian!
+Benar gajian kah?(y=ya, t=tidak) t
+Ternyata gajiannya masih besok.
+>>> 
+
+```
 
 
+`while` hanya mengechek kondisi pada awal-awal saja, tidak pada semua waktu. Perhatikan contoh program berikut ketika dijalankan menggunakan console.
+
+```python
+>>> gajian = True
+>>> while gajian:
+        gajian = False
+        print ("Gak jadi gajian bro... Tetapi while loop belum tau tentang hal ini")
+
+
+Gak jadi gajian bro... Tetapi while-loop belum tau tentang hal ini
+>>> 
+```
+
+
+Selain itu, kita juga dapat menggunakan `break` untuk memberhentikan `while` yang sedang berlangsung. Semisal pada program berikut ini.
+
+```python
+while True:
+    jawab = input("Benarkah gajian? (y=ya, t=tidak) ")
+    if jawab == 'y':
+        print ("Oh, syukurlah...")
+    elif jawab == 't':
+        print ("Ternyata gajiannya masih besok.")
+        break # perulangan berhenti
+    else:
+        print ("Masukkan y atau t saja.")
+```
+Kurang lebih seperti berikut hasil keluaran balikan programnya. 
+
+```
+Benarkah gajian? (y=ya, t=tidak) kata siapa?
+Masukkan y atau t saja.
+Benarkah gajian? (y=ya, t=tidak) belum
+Masukkan y atau t saja.
+Benarkah gajian? (y=ya, t=tidak) y
+Oh, syukurlah...
+Benarkah gajian? (y=ya, t=tidak) y
+Oh, syukurlah...
+Benarkah gajian? (y=ya, t=tidak) t
+Ternyata gajiannya masih besok.
+>>> 
+
+```
+
+`break` memberhentikan perulangan saat itu juga, berbeda dengan kondisi `while False`.
+
+```python
+>>> while True:
+        print ("Satu")
+        break
+        print ("tak ada keluaran print setelah break")
+
+	
+Satu
+>>> while False:
+        print ("satu")
+        break
+        print ("tak ada keluaran print setelah break")
+
+	
+>>> 
+```
+
+
+## Until Loops
+
+Tidak ada fungsi `until` pada pemrograman Python, hanya saja kita dapat menggunakan contoh penulisan berikut sebagai alternatifnya. 
+
+```python
+jarak = False
+while not jarak:
+    print("Jaraknya belum pas.")
+    if input("Apa sudah cukup? (y/t) ") == 'y':
+        jarak = True
+print("Cukup bro!")
+
+```
+
+dan contoh hasil keluarannya adalah sebagai berikut,
+
+```
+Jaraknya belum pas.
+Apa sudah cukup? (y/t) t
+Jaraknya belum pas.
+Apa sudah cukup? (y/t) aa
+Jaraknya belum pas.
+Apa sudah cukup? (y/t) apa
+Jaraknya belum pas.
+Apa sudah cukup? (y/t) ya
+Jaraknya belum pas.
+Apa sudah cukup? (y/t) y
+Cukup bro!
+>>> 
+
+```
+
+## For Loops
+
+Perulangan `for` merupakan perulangan yang dilakukan pada tiap masing-masing anggota dari sebuah kondisi. Semisal kita memiliki sebuah daftar atau `list` berikut dan akan menampilkan tiap anggotanya menggunakan fungsi `print` seperti kode berikut:
+
+```python
+hewan = ['kucing',  'kambing', 'singa', 'kelinci', 'burung hantu']
+
+print(hewan[0])
+print(hewan[1])
+print(hewan[2])
+print(hewan[3])
+print(hewan[4])
+```
+
+maka akan mengeluarkan balikan seperti ini pada console:
+
+```
+kucing
+kambing
+singa
+kelinci
+burung hantu
+>>> 
+```
+
+Tetapi, kode diatas, hanya berfungsi untuk menampilkan lima buah elemen dari variabel `hewan`. Apabila kita menambahkan satu elemen baru pada variabel hewan, maka variabel baru tersebut tidak akan muncul. Begitu sebaliknya, apabila kita menghapus satu elemen dari variabel tersebut, maka pada akhir `print(hewan[4])` akan menampilkan sebuah eror yang berisikan "list index out of range". 
+
+Oleh karenanya, kita bisa menggunakan `while` pada kode diatas untuk menampilkan  seluruh anggota dari variabel hewan, seperti kode berikut ini. 
+
+```python
+>>> hewan = ['kucing',  'kambing', 'singa', 'kelinci', 'burung hantu']
+>>> jumlah_anggota = len(hewan)
+>>> index = 0
+>>> while index < jumlah_anggota:
+        print(hewan[index])
+        index += 1
+
+	
+kucing
+kambing
+singa
+kelinci
+burung hantu
+>>> 
+```
+
+Pada kode diatas, kita masih membutuhkan fungsi `len()` dan membuat sebuah `index` untuk perulangan `while`nya dan menambahkan nilai 1 pada variabel index tiap perulangan agar dapat menampilkan semua anggota variabelnya. Lumayan banyak tahap dan runtutan fungsi yang digunakan untuk melakukannya. 
 
 ---
-Author : [yogidm](https://github.com/yogidm)
-
-Merujuk dari [Akuli](https://github.com/Akuli/python-tutorial)
-
-@April 2019
-
----
-
