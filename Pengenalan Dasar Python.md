@@ -335,7 +335,7 @@ print ("Joko Tole \nbersama temannya\n" + teman)
 [![Fungsi Print pada Python](https://img.youtube.com/vi/Y64eVxututk/0.jpg)](https://www.youtube.com/watch?v=Y64eVxututk)
 
 
-------------
+----
 
 # 3. Editor Pada IDLE
 
@@ -498,6 +498,8 @@ maka akan menampilkan:
 3
 >>> 
 ```
+
+----
 
 # 4. Pengkondisian
 
@@ -674,7 +676,7 @@ else:
     print ("Kata" kata, "tidak diketahui...")
 ```
 
-
+-----
 
 # 5. List dan Tuple
 
@@ -952,6 +954,7 @@ Traceback (most recent call last):
 AttributeError: 'tuple' object has no attribute 'append'
 >>> 
 ```
+---
 
 # 6. Perulangan (Loops)
 
