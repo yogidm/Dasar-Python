@@ -32,8 +32,7 @@ Namun, pada tutorial ini, digunakan `IDLE (using Python 2.7)` sebagai editor Pyt
     
 
 3. [Editor pada IDLE](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#3-editor-pada-idle)
-4. [Pengkondisian]()
-5. [List]()
-6. [Perulangan]()
-7. [Membuat Fungsi]()
-8. [Membuat Program yang Besar]()
+4. [Pengkondisian](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#4-pengkondisian)
+5. [List dan Tuple](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#5-list-dan-tuple)
+6. [Perulangan](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#6-perulangan-loops)
+
