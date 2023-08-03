@@ -1222,3 +1222,176 @@ burung hantu
 Pada kode diatas, kita masih membutuhkan fungsi `len()` dan membuat sebuah `index` untuk perulangan `while`nya dan menambahkan nilai 1 pada variabel index tiap perulangan agar dapat menampilkan semua anggota variabelnya. Lumayan banyak tahap dan runtutan fungsi yang digunakan untuk melakukannya. 
 
 ---
+
+## OOP Pyhton
+
+Object Oriented Programming (OOP) adalah suatu paradigma pemrograman yang berorientasi pada konsep class (kelas) dan object (objek). Konsep ini sering kali digunakan dalam menyusun aplikasi menjadi kode yang sederhana dan dapat digunakan kembali (reusable).
+Dalam bahasa pemrograman Python, mode operasi Object-Oriented Programming (OOP) mengacu pada penggunaan konsep OOP untuk merancang dan mengembangkan program. OOP adalah paradigma pemrograman yang berfokus pada objek dan hubungan antara objek-objek tersebut.
+
+Hal-hal yang ada didalam OOP python antara lain :
+
+`Class`
+
+`Class` adalah struktur utama dalam OOP yang mendefinisikan atribut dan metode yang dimiliki oleh objek. Kelas berfungsi sebagai blueprint untuk menciptakan objek. Dalam Python, Anda dapat mendefinisikan kelas dengan menggunakan kata kunci class. Contohnya
+
+```python
+class Mobil :
+	def __init__(self, merk, tahun) :
+		self.merk = merk
+		self.tahun = tahun
+
+def info(self) :
+	print(f"Mobil {self.merk} tahun {self.tahun}")
+```
+
+`Object`
+
+`Object` adalah instansi konkret dari suatu kelas. Object memiliki atribut dan metode yang didefinisikan dalam kelasnya. Untuk menciptakan objek dari kelas, Anda menggunakan proses yang disebut instansiasi. Contohnya:
+
+```python
+class BilanganKompleks :
+	def __init__(self, riil, imajiner) :
+		self.r = riil
+		self.i = imajiner
+
+x = BilanganKompleks(3.0, -4.5)
+print(x.r, x.i)
+
+```
+Dari contoh diatas x adalah sebuah object 
+
+`Enkapsulasi`
+
+`Enkapsulasi` adalah konsep pemaketan atau penyatuan data dalam data beserta method yang berasosiasi dengannya sedemikian rupa sehingga dapat dimanfaatkan untuk menyembunyikan rincian implementasi dari kelas pemakai. Dalam referensi lain konsep enkapsulasi juga dikenal dengan istilah information hiding. Konsep enkapsulasi menggunakan istilah `private` untuk sifat keanggotaan yang hanya bisa dikenali oleh kelas tersebut saja, `public` untuk sifat keanggotaan yang bisa dikenali oleh semua pihak, dan `protected`/`friend` untuk sifat keanggotaan internal kelas dan/atau kelas turunan dari kelas tersebut.
+Setiap atribut dan method yang diimplementasikan pada suatu `class`, secara konsep seharusnya hanya berlaku untuk `object` tersebut saja. Implementasi dalam bahasa pemrograman tertentu terkadang memfasilitasi designer/programmer untuk membuat suatu variabel yang diakses bersama oleh setiap instance/object dari suatu class. Variabel semacam ini disebut juga `class variabel`. Adapun variabel yang hanya dapat diakses oleh `instance/object` yang bersangkutan saja disebut dengan `instance variabel`.
+```python
+
+class Anjing:
+	jenis = 'labrador' # variable yang digunakan semua instance
+	def __init__(self, nama):
+		self.nama = nama # variable yang unik untuk setiap instance
+d = Dog('Fido')
+e = Dog('Buddy')
+d.jenis # menggunakan class variable
+e.jenis # menggunakan class variable
+d.nama # unik untuk d / instance variable
+e.nama # unik untuk e / instance variable
+
+```
+Dalam implementasinya, jika terdapat atribut dengan nama yang sama di tingkat class dan instance, maka prioritas diberikan kepada atribut di tingkat instance.
+
+``Inheritance``
+
+`Inheritance` adalah suatu konsep pewarisan suatu `class` ke `class` lain. `Class` yang mewariskan disebut dengan `superclass` / `parent class` / `base class`. `Class` yang mewarisi disebut dengan `subclass` / `child class` / `derived class`. Pewarisan yang dimaksud adalah penurunan segala anggota (`atribut` dan `method`) dari `class` yang sudah ada ke `class` baru yang akan dibuat. Penurunan anggota hanya berlaku terhadap sifat keanggotaan `public` atau `protected`/`friend` saja, sedangkan keanggotaan `private` tidak diturunkan. Mekanisme `inheritance` ini memungkinkan untuk membuat suatu class hierarchy, dimana kelas turunan mewarisi semua keanggotaan seluruh kelas diatasnya.
+
+```python
+
+class Penduduk :
+    def __init__(self, nama, id) :
+        self.nama = nama
+        self.id = id
+    def cetak_info(self) :
+        print(f"{self.nama}, {self.id}")
+class Pegawai(Penduduk) :
+    def __init__(self, nama, id, nip, th_mulai) :
+        self.nip = nip
+        self.th_mulai = th_mulai
+        Penduduk.__init__(self, nama, id)
+class Nelayan(Penduduk):
+    def __init__(self, nama, id, area_laut):
+        self.area_laut = area_laut
+        super().__init__(nama, id) # super() otomatis mencari parent
+budi = Penduduk("Budi", 1)
+budi.cetak_info()
+dani = Pegawai("Dani", 103, 901, 2023)
+dani.cetak_info()
+andi = Nelayan('Andi', 104, 'Laut Jawa')
+andi.cetak_info()
+
+```
+
+`Polymorphisme`
+
+`Polymorphisme` adalah konsep yang muncul setelah `inheritance`, dimana suatu method yang sama dapat berperilaku berbeda dalam tingkatan `class`. Pada konsep ini, setiap `class` dapat mengimplementasikan secara berbeda konsep method yang sama tadi. Perbedaan `implementasi` ini dibedakan menjadi `overloading` dan `overriding`. `Overloading` berarti implementasi method yang sama dari sisi penamaan, tapi berbeda parameter masukan yang didefinisikan. `Overriding` berarti implementasi method di tingkat kelas turunan menimpa pendefinisian method di `class` yang diatasnya.
+
+```python
+class Ikan:
+    def berenang(self):
+        print("Setiap ikan pasti berenang")
+    def berenang_mundur(self):
+        print("Tidak semua ikan dapat berenang mundur")
+    def struktur_penyangga(self):
+        print("Ikan menggunakan tulang sebagai penyangga tubuh")
+class Shark(Ikan):
+    def berenang(self):
+        print("Shark dapat berenang")
+    def berenang_mundur(self):
+        print("Shark tidak dapat berenang mundur")
+    def struktur_penyangga(self):
+        print("Shark memiliki struktur tulang rawan")
+class Clownfish(Ikan):
+    def berenang(self):
+        print("Clownfish dapat berenang")
+    def berenang_mundur(self):
+        print("Clownfish dapat berenang mundur")
+    def struktur_penyangga(self):
+        print("Clownfish memiliki struktur tulang keras")
+### Instansiasi
+bruce = Shark()
+nemo = Clownfish()
+marlin = Clownfish()
+### melalui iterasi
+finding_nemo = [nemo, bruce, marlin]
+for fish in finding_nemo:
+    fish.berenang()
+    fish.berenang_mundur()
+    fish.struktur_penyangga()
+### melalui fungsi
+def cetak_ikan(ikan):
+    ikan.berenang()
+    ikan.berenang_mundur()
+    ikan.struktur_penyangga()
+
+cetak_ikan(nemo)
+cetak_ikan(bruce)
+cetak_ikan(marlin)
+### atau kombinasinya
+for fish in finding_nemo:
+    cetak_ikan(fish)
+
+```
+
+`Berpindah Class`
+
+Suatu `object` dapat berpindah kelas dari `subclass` ke `superclass` atau sebaliknya dengan menggunakan method built-in __class__. Pada dasarnya perpindahan kelas dari `subclass` ke `superclass` tidak berpotensi masalah karena setiap member `superclass` sudah dimiliki oleh `subclass`. Namun sebaliknya, jika perpindahan kelas terjadi dari `superclass` menjadi subclass, tanpa mendefinisikan member (atribut/method) dari `subclass` tersebut, akan berpotensi error ketika mengakses member yang tidak terdefinisi.
+```python
+class X :
+    def __init__(self, idx) :
+        self.idx = idx
+    def print(self) :
+        print (f"Class X with idx {self.idx}")
+class Y(X) :
+    def __init__(self, idx, idy) :
+        self.idy = idy
+        super().__init__(idx)
+    def print(self) :
+        print(f"Class Y with idx {self.idx} and idy {self.idy}")
+y = Y(101, 102)
+y.print() #Class Y with idx 101 and idy 102
+y.__class__ = X
+y.print() #Class X with idx 101
+x = X(101)
+x.print() #Class X with idx 101
+x.__class__ = Y
+x.print() #Error karena x tidak memiliki atribute idy
+```
+
+
+
+
+
+`
+
+
+
+
