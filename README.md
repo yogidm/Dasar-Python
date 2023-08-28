@@ -1,5 +1,5 @@
 
-# Pengenalan Dasar Python 2.7
+# Pengenalan Dasar Python 3.4
 
 Python merupakan sebuah bahasa pemograman yang ditujukan pada perancangan yang berfokus pada tingkat keterbacaan kode. Oleh karenanya Python diklaim sebagai bahasa yang menggabungkan kapabilitas, kemampuan, dengan sintaksis kode yang sangat jelas dan dilengkapi dengan fungsionalitas pustaka standar yang besar serta komprehensif. Python juga didukung oleh komunitas yang besar.
 
