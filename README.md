@@ -1,9 +1,11 @@
 
-# Pengenalan Dasar Python 2.7
+# Pengenalan Dasar Python 3
 
 Python merupakan sebuah bahasa pemograman yang ditujukan pada perancangan yang berfokus pada tingkat keterbacaan kode. Oleh karenanya Python diklaim sebagai bahasa yang menggabungkan kapabilitas, kemampuan, dengan sintaksis kode yang sangat jelas dan dilengkapi dengan fungsionalitas pustaka standar yang besar serta komprehensif. Python juga didukung oleh komunitas yang besar.
 
-Python memiliki 2 versi berbeda, yaitu Python versi 3.4.3 dan Python versi 2.7.14. Pada tutorial kali ini, kita menggunakan Python versi 2.7.14. Agar dapat menggunakan Python, pertama kita akan melakukan instalasi pada masing-masing komputer yang digunakan. 
+Python secara umum Dapat dibagi menjadi 2 versi berbeda, yaitu Python versi 2 dan Python versi 3. Perbedaan paling mencolok antara keduanya terletak pada [sintaks](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) (Pernyataan) yang lebih mudah dipahami pada Python 3. Python memiliki versi mayor yang merujuk pada versi utama dan diikuti dengan versi minor yang merujuk pada versi perbaikan bug. contoh pada  Versi `Python 3.11.3` angka `3` didepan adalah versi mayor dan `11.3` adalah versi minor.
+
+Pada tutorial kali ini, kita menggunakan Python versi 3. Agar dapat menggunakan Python, pertama kita akan melakukan instalasi pada masing-masing komputer yang digunakan. 
 Editor untuk Python ada beberapa macam, diantaranya:
 + IDLE
 + PyCharm
@@ -17,12 +19,12 @@ Editor untuk Python ada beberapa macam, diantaranya:
 + Pluma
 + Wingware
 
-Namun, pada tutorial ini, digunakan `IDLE (using Python 2.7)` sebagai editor Python.
+Namun, pada tutorial ini, digunakan `IDLE (Python 3)` sebagai editor Python.
 
 ## Daftar isi 
 
-1. [Instalasi IDLE untuk Python 2.7](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#1-instalasi-idle-untuk-python-27)
-2. [Aplikasi IDLE sebagai editor Python 2.7](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#2-aplikasi-idle-sebagai-editor-python-27)
+1. [Instalasi IDLE untuk Python 3](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#1-instalasi-idle-untuk-python-27)
+2. [Aplikasi IDLE sebagai editor Python 3](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#2-aplikasi-idle-sebagai-editor-python-27)
     * [Tampilan Awal IDLE](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-tampilan-awal-idle)
     * [Bermain menggunakan console Pyhton](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-bermain-menggunakan-console-pyhton)
     * [Menggunakan Python sebagai kalkulator (alat hitung)](https://github.com/yogidm/Dasar-Python/blob/master/Pengenalan%20Dasar%20Python.md#-menggunakan-python-sebagai-kalkulator-alat-hitung)
