@@ -1,5 +1,5 @@
 
-# 1. Instalasi IDLE untuk Python 2.7
+# 1. Instalasi IDLE untuk Python 3
 
 
 
@@ -14,11 +14,11 @@ sudo apt-get install idle
 
 ## Untuk Windows
 
-Unduh dan install idle dari [tautan berikut](https://www.python.org/downloads/release/python-2714/)
+Unduh dan install idle dari [tautan berikut: Python 3.11.5](https://www.python.org/downloads/release/python-3115/)
 
 ## Untuk MacOS
 
-Unduh dan install dari [tautan berikut](https://www.python.org/downloads/release/python-2714/)
+Unduh dan install dari [tautan berikut: Python 3.11.5](https://www.python.org/downloads/release/python-3115/)
 
 ## Lihat Videonya >>>
 
@@ -26,9 +26,9 @@ Unduh dan install dari [tautan berikut](https://www.python.org/downloads/release
 
 ----
 
-# 2. Aplikasi IDLE sebagai editor Python 2.7
+# 2. Aplikasi IDLE sebagai editor Python 3
 
-Tekan tombol `Command` atau tombol `Windows` pada keyboard,  dan ketikkan `IDLE`, Pilih `IDLE (using Python-2.7) ` 
+Tekan tombol `Command` atau tombol `Windows` pada keyboard,  dan ketikkan `IDLE`, Pilih `IDLE (Python-3) ` 
 
 Tampilan pencarian editor IDLE seperti gambar dibawah ini.
 
@@ -36,7 +36,7 @@ Tampilan pencarian editor IDLE seperti gambar dibawah ini.
 
 ## + Tampilan awal IDLE
 
-Pada awal Idle dibuka, Anda akan melihat sebuah jendela dengan judul `Pyhton 2.7 Shell`. 
+Pada awal Idle dibuka, Anda akan melihat sebuah jendela dengan judul `IDLE Shell 3`. 
 Jendela ini merupakan jendela perintah (console) dari Idle tersebut. 
 Fungsinya adalah menjalankan perintah-perintah python diluar code python utama atau untuk memasukkan masukan data untuk diolah lagi pada code utama.
 
